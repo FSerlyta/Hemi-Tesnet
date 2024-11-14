@@ -1,0 +1,23 @@
+Cloning the Repository: The error fatal: destination path 'hemiautoinstall' already exists and is not an empty directory means the directory already exists. If you want to update or replace it, you can either:
+
+Delete the existing directory (be careful as this will remove all contents):
+bash
+Salin kode
+rm -rf hemiautoinstall
+
+Then, try cloning the repository again:
+
+Salin kode
+git clone https://github.com/dwisyafriadi2/hemiautoinstall.git
+
+
+Salin kode
+
+cd hemiautoinstall
+chmod +x autoinstall.sh
+
+Salin kode
+./autoinstall.sh
+
+Cek Runing
+sudo systemct status hemipopminer
